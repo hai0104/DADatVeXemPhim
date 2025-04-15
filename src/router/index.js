@@ -1,5 +1,6 @@
 import MuaVe from '@/components/MuaVe.vue'
-import SuKien from '@/views/SuKien.vue'
+import UuDai from '@/components/UuDai.vue'
+
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
@@ -11,9 +12,9 @@ const router = createRouter({
       component: MuaVe,
     },
     {
-      path: '/su-kien',
-      name: 'su-kien',
-      component: SuKien,
+      path: '/uu-dai',
+      name: 'uu-dai',
+      component: UuDai,
     },
     
   ],
