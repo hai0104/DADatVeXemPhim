@@ -1,4 +1,5 @@
 import MuaVe from '@/components/MuaVe.vue'
+import SuKien from '@/views/SuKien.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
@@ -8,6 +9,11 @@ const router = createRouter({
       path: '/',
       name: 'muave',
       component: MuaVe,
+    },
+    {
+      path: '/su-kien',
+      name: 'su-kien',
+      component: SuKien,
     },
     
   ],
